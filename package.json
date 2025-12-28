@@ -23,7 +23,11 @@
     "schema": "./pkg/server/api/console/v1/schema.graphql"
   },
   "overrides": {
-    "form-data": "^4.0.4"
+    "form-data": "^4.0.4",
+    "next": "15.5.9",
+    "@react-email/preview-server@4.3.2": {
+      "next": "15.5.9"
+    }
   },
   "license": "MIT",
   "packageManager": "npm@11.1.0",
@@ -31,7 +35,7 @@
     "node": "24.4.0"
   },
   "dependencies": {
-    "next": "^15.5.9",
+    "next": "15.5.9",
     "react-dom": "^19.2.1"
   }
 }
